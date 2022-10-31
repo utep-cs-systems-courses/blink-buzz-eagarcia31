@@ -16,4 +16,4 @@ install: libTimer.a
 	cp *.h ../h
 
 clean:
-	rm -f timerLib.a *.o
+	rm -f libTimer.a *.o
