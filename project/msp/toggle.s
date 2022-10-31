@@ -12,7 +12,7 @@ jt:
 	.word state3
 	.word state4
 
-	.gloabl toggle
+	.global toggle
 toggle:
 	CMP #3, r12
 	Jlo end

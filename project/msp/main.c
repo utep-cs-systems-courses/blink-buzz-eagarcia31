@@ -1,7 +1,7 @@
 #include <msp430.h>
 #include "libTimer.h"
 #include "led.h"
-#include "switch.h"
+#include "switches.h"
 #include "buzzer.h"
 #include "state_machine.h"
 
