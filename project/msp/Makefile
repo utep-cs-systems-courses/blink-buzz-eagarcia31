@@ -8,7 +8,7 @@ AS		= msp430-elf-as
 
 all: button.elf
 
-button.elf: ${COMMON_OBJECTS} buzzer.o state_machine.o interrupt_handler.o led.o switches.o main.o toggle.o ..lib/libTimer.a
+button.elf: ${COMMON_OBJECTS} buzzer.o state_machine.o interrupt_handler.o led.o switches.o main.o toggle.o ../lib/libTimer.a
 	${CC} ${CFLAGS} ${LDFLAGS} -o $@ $^
 
 load: button.elf
