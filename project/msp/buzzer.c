@@ -4,11 +4,11 @@
 
 char play_song = 0;
 
-int notes[43] = {D5, F5, D6, D5, F5, D6, E6, F6, E6, F6, E6, C6, A5, A5, D5, F5, G5, A5, A5,
+int notes[43] = {D5, D5, D6, D5, D5, D6, D6, D6, D6, D5, D5, D6, D5, D5, D5, D6, D5, D5, D5,
 
-		 D5, F5, G5, E5, D5, F5, D6, D5, F5, D6, E6, F6, E6, F6, E6, C6, A5, A5, D5,
+		 D5, D6, D6, D6, D5, D5, D6, D5, D5, D6, D6, D6, D5, D6, D6, D6, D5, D5, D5,
 
-		 F5, G5, A5, A5, D5};
+		 D6, D5, D5, D5, D5};
 
 
 
